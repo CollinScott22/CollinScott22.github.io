@@ -1,31 +1,70 @@
 
-/*#home{
-  background: black;
-  color:  rebeccapurple;
+#home{
+  position:   relative;
+  color:  white;
   font-size: 20px;
-  height: 100%;
-  max-width:  100%;
-  width:  80%;
+  height: 100vh;
+  width:  100%;
+  text-align:   center;
+  text-transform:   translate(-50%, -50%);
   background-image: url("night-sea.jpg");
   background-attachment:  fixed;
   background-position:  center;
   background-repeat:  no-repeat;
-  background-size:  cover
-}*/
+  background-size:  cover;
+
+}
+
+#home_text{
+  margin:   0;
+  position:   absolute;
+  top:    50%;
+  left:   51%;
+  margin-right:   -50%;
+  transform:    translate(-50%, -50%);
+  line-height:    200px;
+  height:   200px;
+  text-align:   center;
+  display:    inline-block;
+
+}
+
+#job_text{
+  margin:   0;
+  position:   absolute;
+  top:    54%;
+  left:   51%;
+  margin-right:   -50%;
+  transform:    translate(-50%, -50%);
+}
+
+#home_button{
+  margin:   0;
+  position:   absolute;
+  top:    60%;
+  left:   51%;
+  margin-right:   -50%;
+  transform:    translate(-50%, -50%);
+}
+#nav-bar{
+ position:    sticky;
+ top:   0;
+}
 
 #nav-bar ul{
+  width:    100%;
+  float:  left;
   list-style-type:  none;
   margin: 0;
   padding:  0;
   overflow: hidden;
-  position: -webkit-sticky;
-  position: sticky;
-  top:  0;
-  background-color: #003b6f;
-  font-family:  "Raleway";
+  /*position: sticky;
+  top:  0;*/
+  background:   #003B6F;
 }
 
 #nav-bar li{
+  list-style:   none;
   float:  left;
   border-right: 1px solid #bbb;
 }
@@ -34,7 +73,7 @@
   border-right: none;
 }
 
-#nav-bar li a{
+#nav-bar ul li a{
   display:  block;
   color:  white;
   text-align: center;
