@@ -183,3 +183,66 @@ img
     flex-direction: row;
 }
 
+.skills .content .skillsBx
+{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.skills .content .skillsBx:hover
+{
+    background: #2196f3;
+
+}
+
+.skills .content .skillsBx img
+{
+    max-width: 80px;
+    filter: invert(1);
+}
+
+.skills .content .skillsBx h2
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.projects .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects .content .projectBx
+{
+    width: 50%;
+    padding: 20px;
+}
+
+.projects .content .projectBx img
+{
+    max-width: 100%;
+}
+
+.contact
+{
+    background: #111;
+}
+
+.contact .heading
+{
+    color: #fff;
+
+}
+
+.contact .contactBx
+{
+    background: #222;
+    
+}
