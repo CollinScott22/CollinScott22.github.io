@@ -212,22 +212,41 @@ img
     font-weight: 600;
 }
 
+
+.projects
+{
+    background: #f7f7f7;
+}
 .projects .content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.projects .content .projectBx
+{
+    max-width: calc(50% - 40px);
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.work {
+    background: #f7f7f7;
+}
+
+.work .content
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.projects .content .projectBx
+.work .content .workBx
 {
-    width: 50%;
-    padding: 20px;
-}
-
-.projects .content .projectBx img
-{
-    max-width: 100%;
+    padding: 40px 60px;
 }
 
 .contact
@@ -241,8 +260,13 @@ img
 
 }
 
-.contact .contactBx
+.contact .content .contactBx
 {
-    background: #222;
-    
+    color: #fff;
+}
+
+.contact .content .contactBx h3
+{
+    color: #2196f3;
+    font-weight: 500;
 }
