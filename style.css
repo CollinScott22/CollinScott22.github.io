@@ -200,6 +200,10 @@ img
 
 }
 
+#image_corrector {
+    filter: invert(1);
+}
+
 .skills .content .skillsBx img
 {
     max-width: 80px;
